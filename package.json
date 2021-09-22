@@ -5,7 +5,8 @@
     "start": "node src/server/app.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node": "^16.9.1"
   },
   "devDependencies": {
     "@sucrase/webpack-loader": "^2.0.0",
