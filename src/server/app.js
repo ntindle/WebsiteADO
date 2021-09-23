@@ -14,7 +14,7 @@ app.get("/", (request, response) => {
 <!DOCTYPE html>
 <html>
 	<body>
-		<div id="container"></div>
+		<div  id="container"></div>
 		<script src="/static/bundle.js"></script>
 	</body>
 </html>
