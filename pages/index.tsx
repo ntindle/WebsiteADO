@@ -9,13 +9,13 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>UNT App Development Org</title>
-        <meta name="description" content="UNT's premier App Dev Org" />
+        <meta name="description" content={"UNT's premier App Dev Org"} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
         <div className={styles.container}>
             <h2>
-              We are UNT's
+              We are UNT&apos;s
             </h2>
             <h1>
               App Development Org

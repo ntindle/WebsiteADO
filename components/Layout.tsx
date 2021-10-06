@@ -2,14 +2,20 @@ import Navbar from './Header'
 import Footer from './Footer'
 import styles from "../styles/Home.module.css";
 
-
-
-export default function Layout({ children }) {
-  return (
-    <>
-      <Navbar />
-      <main className={styles.main}>{children}</main>
-      <Footer />
-    </>
-  )
+interface LayoutProps {
+    title?: string;
+    description?: string;
+    children: any
 }
+
+const Layout: React.FC<LayoutProps> = ({ title, description, children }) => {
+    return(
+        <>
+            <Navbar />
+            <main className={styles.main}>{children}</main>
+            <Footer />
+        </>
+    )
+}
+
+export default Layout
