@@ -8,7 +8,9 @@ const Comment = () => {
   return (
     <>
     <Header/>
-      <h1>Slug: {slug.join('/')}</h1>
+    <h1>
+        Slug here, commented out for example
+      </h1>
     </>
   )
 }
