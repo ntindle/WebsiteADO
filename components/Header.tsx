@@ -10,8 +10,9 @@ const Header = () => (
         width={500}
         height={500}
       /> */}
-      <Text>
-        </Text>
+      <h4>
+        Discovery Park F285
+        </h4>
     {/* <NavBar/> */}
   </header>
 )
