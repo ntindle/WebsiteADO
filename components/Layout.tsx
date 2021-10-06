@@ -1,4 +1,4 @@
-import Navbar from './Header'
+import Header from './Header'
 import Footer from './Footer'
 import styles from "../styles/Home.module.css";
 
@@ -11,7 +11,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ title, description, children }) => {
     return(
         <>
-            <Navbar />
+            <Header />
             <main className={styles.main}>{children}</main>
             <Footer />
         </>
