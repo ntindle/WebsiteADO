@@ -16,8 +16,8 @@ const Header = () => (
       Discovery Park F285
     </h4>
     <div className={styles.push}>
-      <SocialLink icon={InstagramLogo} destination="instagram.com/ado_unt" altText="Follow us on instagram" />
-      <SocialLink icon={DiscordLogo} destination="discord.gg/ado" altText="Join us on discord" />
+      <SocialLink icon={InstagramLogo} destination="https://instagram.com/ado_unt" altText="Follow us on instagram" />
+      <SocialLink icon={DiscordLogo} destination="https://discord.gg/eg3KqNsXEc" altText="Join us on discord" />
     </div>
     {/* <NavBar/> */}
   </header>
