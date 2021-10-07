@@ -1,11 +1,11 @@
-import NavBar from "./NavBar"
-import Image from 'next/image'
+
+import styles from "../styles/Home.module.css";
 import SocialLink from "./SocialLink"
 import DiscordLogo from '../public/Discord-Logo-Color.png'
 import InstagramLogo from '../public/Instagram_Glyph_Gradient_RGB.png'
 
 const Header = () => (
-  <header>
+  <header className={styles.header}>
     {/* <Image
         src="http://jquery-az.com/html/images/banana.jpg"
         alt="Landscape picture"
@@ -15,8 +15,10 @@ const Header = () => (
     <h4>
       Discovery Park F285
     </h4>
-    <SocialLink icon={InstagramLogo} destination="instagram.com/ado_unt" altText="Follow us on instagram"/>
-    <SocialLink icon={DiscordLogo} destination="discord.gg/ado" altText="Join us on discord"/>
+    <div className={styles.push}>
+      <SocialLink icon={InstagramLogo} destination="instagram.com/ado_unt" altText="Follow us on instagram" />
+      <SocialLink icon={DiscordLogo} destination="discord.gg/ado" altText="Join us on discord" />
+    </div>
     {/* <NavBar/> */}
   </header>
 )
