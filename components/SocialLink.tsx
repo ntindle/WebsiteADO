@@ -13,7 +13,7 @@ const SocialLink: React.FC<SocialLinkProps> = (props) => {
     return (
       <div className={props.className}>
           <Link href={props.destination} passHref>
-          <Image src={props.icon} alt={props.altText} width= {20} height={20}/>
+          <Image src={props.icon} alt={props.altText} width= {60} height={60}/>
           </Link>
       </div>
     );
