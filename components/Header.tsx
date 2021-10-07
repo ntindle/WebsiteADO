@@ -15,10 +15,10 @@ const Header = () => (
     <h4>
       Discovery Park F285
     </h4>
-    <div className={styles.push}>
-      <SocialLink icon={InstagramLogo} destination="https://instagram.com/ado_unt" altText="Follow us on instagram" />
-      <SocialLink icon={DiscordLogo} destination="https://discord.gg/eg3KqNsXEc" altText="Join us on discord" />
-    </div>
+
+    <SocialLink icon={InstagramLogo} destination="https://instagram.com/ado_unt" altText="Follow us on instagram" className={styles.push} />
+    <SocialLink icon={DiscordLogo} destination="https://discord.gg/eg3KqNsXEc" altText="Join us on discord" />
+
     {/* <NavBar/> */}
   </header>
 )
